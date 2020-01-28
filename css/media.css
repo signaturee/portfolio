@@ -1,0 +1,186 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*bannerContent*/
+.bannerContent {
+	text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0; 
+}
+.bannerContent h1 {
+    font-size: 35px;
+}
+.bannerContent p {
+    font-size: 16px;
+    text-align: justify;
+}
+/*bannerContent*/
+/*Feature start*/
+.Features {
+    padding: 60px 0;
+}
+.commonH1 {
+    font-size: 42px;
+    margin-bottom: 80px;
+}
+/*Feature end*/
+/*story start*/
+.storyContent {
+    margin-top: 36.5px;
+    text-align: center;
+}
+.btnCustom {
+    font-size: 14px;
+    padding: 10px 9px;
+}
+.storyContent p {
+    text-align: justify;
+}
+/*story end*/
+/*skil start*/
+.skilContent h1 {
+    font-size: 40px;
+}
+/*skil end*/
+/*blog start*/
+.blog {
+    padding: 60px 0;
+}
+/*blog end*/
+/*footer start*/
+.footer {
+    padding: 50px 0;
+}
+.footerLogo {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.footerContent {
+    text-align: center;
+}
+.footerText {
+    text-align: center;
+}
+/*footer end*/
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*bannerContent*/
+.bannerContent {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 18px;
+}
+.bannerContent h1 {
+    font-size: 46px;
+}
+.bannerContent p {
+    font-size: 16px;
+}
+/*bannerContent*/
+/*story start*/
+.storyContent {
+    margin-top: 36.5px;
+    text-align: center;
+}
+.storyContent p {
+    text-align: justify;
+}
+.btnCustom {
+    font-size: 14px;
+    padding: 10px 9px;
+}
+/*story end*/
+/*footer start*/
+.footer {
+    padding: 50px 0;
+}
+.footerLogo {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.footerContent {
+    text-align: center;
+}
+.footerText {
+    text-align: center;
+}
+/*footer end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*bannerContent*/
+.bannerContent {
+    text-align: center;
+}
+/*bannerContent*/
+/*story start*/
+.storyImg {
+    margin-top: 9.5px;
+}
+.storyContent {
+    margin-top: 10px;
+}
+.storyContent h1 {
+    font-size: 45px;
+}
+.storyContent p {
+    margin: 0;
+}
+.btnCustom {
+    font-size: 14px;
+    padding: 10px 9px;
+    margin-top: 18px;
+}
+/*story end*/
+/*skil start*/
+.skilMargin {
+     margin-bottom: 0; 
+}
+.skilContent h1 {
+     letter-spacing: 0; 
+}
+/*skil end*/
+/*blog start*/
+.titleText {
+    letter-spacing:0; 
+}
+.date {
+    font-size: 11px;
+}
+.comment {
+    font-size: 11px;
+}
+.cardP {
+    word-spacing: 0; 
+}
+/*blog end*/
+/*footer start*/
+.footerText {
+    text-align: center;
+}
+/*footer end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*story start*/
+.storyContent {
+    margin-top: 88px;
+}
+/*story end*/
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+}

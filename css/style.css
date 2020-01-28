@@ -1,0 +1,388 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+
+}
+/*header start*/
+header{
+	background-image: url(../images/business2.jpg);
+	/*background-color: #9b9a95;*/
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*opacity: 1;
+    background-color: #1C1D21;*/
+	
+}
+.navLogo{
+	font-family: 'Poiret One', cursive;
+	font-weight: 400;
+	font-size: 30px;
+	color: #fff !important;
+}
+.customNav{
+}
+.customNav ul{
+}
+.customNav ul li{
+}
+.customNav ul li a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    transition: .5s;
+	padding: 8px 15px !important;
+}
+.customNav ul li a:hover{
+	background-color: #4ecb8c;
+	border-radius: 6px;
+}
+.bannerContent{
+	padding-top: 160px;
+    padding-bottom: 270px;
+    padding-left: 18px;
+}
+.bannerContent h1{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 59px;
+    color: #fff;
+}
+.bannerContent p{
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+    margin: 30px 0;
+}
+.btnCustom{
+	font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #4ecb8c;
+    border-color: #4ecb8c;
+    padding: 18px 20px;
+}
+.btnCustom:hover{
+	background-color: transparent;
+	border-color: #4ecb8c;
+	color: #4ecb8c;
+}
+.img{
+	margin-top: 100px;
+}
+.togglerCustom {
+    background-color: #f4f4f4;
+}
+/*header end*/
+/*Features start*/
+.Features{
+	padding: 100px 0;
+}
+.commonH1{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 48px;
+}
+.commonP{
+		margin-bottom: 60px;
+}
+.single{
+	    margin-bottom: 60px;
+}
+.single i{
+	font-size: 22px;
+	color: #fff;
+	background-color: #36c36e;
+    padding: 16px;
+    border-radius: 50%;
+}
+.single h5{
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.single p{
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #444444;
+	letter-spacing: 2px;
+}
+/*Features end*/
+/*story start*/
+.story{
+	background-color: #e9ebea;
+}
+.storyImg{
+}
+.storyContent{
+	margin-top: 127.5px;
+}
+.storyContent h1{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 48px;
+	letter-spacing: 1.5px;
+}
+.storyContent p{
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    letter-spacing: .5px;
+    margin: 35px 0;
+}
+/*story end*/
+/*clint start*/
+.clint{
+	padding: 100px 0;
+}
+.imgCustom{
+	border-radius: 50%;
+}
+.cardTitle{
+	margin-bottom: 10px;
+}
+.titleCustom{
+    font-size: 25px;
+    padding: 20px 0 10px;
+    margin: 0;
+    line-height: 1 !important;
+}
+.textCustom{
+	    padding: 5px 0 15px;
+}
+.footer-social .btn {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0 3px;
+    border: 1px solid #36c36e;
+    color: #ffffff;
+    background-color: #36c36e;
+}
+.margin{
+	margin-bottom: 10px;
+}
+/*clint end*/
+/*skil start*/
+.skil{
+	padding: 100px 0;
+	background-color: #353535;
+}
+.skilMargin{
+	margin-bottom: 43px;
+}
+.skilContent h1{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 48px;
+	color: #fff;
+	letter-spacing: 1.5px;
+	margin-bottom: 35px;
+}
+.skilContent p{
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .5px;
+    margin-bottom: 35px;
+}
+.btnSkil{
+	font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: transparent;
+    border-color: #4ecb8c;
+    padding: 18px 20px;
+}
+.btnSkil:hover{
+	background-color: #4ecb8c;
+	border-color: #4ecb8c;
+	color: #fff;
+}
+.progress-title{
+        font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+}
+.progress{
+    height: 10px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+.progress .progress-bar{
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar:after{
+    content: "";
+    display: inline-block;
+    width: 9px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -1px;
+    z-index: 1;
+    transform: rotate(35deg);
+}
+.progress .progress-value{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    right: -25px;
+}
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive {
+    0%{ width: 0; }
+}
+/*skil end*/
+/*blog start*/
+.blog{
+	padding: 100px 0;
+}
+.bodyCustom{
+}
+.bodyCustom i{
+	color: #999999;
+}
+.titleText{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.date{
+	color: #999999;
+}
+.comment{
+	color: #999999;
+}
+.cardP{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444444;
+    word-spacing: 7px;
+    letter-spacing: .5px;
+}
+/*blog end*/
+/*project start*/
+.project{
+	padding: 40px 0;
+	background-color: #36c36e;
+}
+.content{
+}
+.projectContent{
+}
+.projectContent h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff;
+}
+.projectContent p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+#more{
+    display: none;
+}
+.readButton{
+    
+}
+.btnProject{
+	font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 18px 20px;
+}
+.btnProject:hover{
+	background-color: #fff;
+	border-color: #fff;
+	color: #36c36e;
+}
+/*project end*/
+/*footer start*/
+.footer{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: #232323;
+}
+.footerLogo{
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #36c36e !important;
+}
+.footerContent{
+    margin-bottom: 40px;
+}
+.footerContent h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #36c36e;
+    text-transform: uppercase;
+}
+.footerContent p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.footerContent p a{
+    color: #36c36e;
+    transition: .5s;
+}
+.footerContent p:hover a{
+    color: #fff;
+}
+.footerText{
+    margin-top: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+.footerText i{
+    color: #36c36e;
+}
+.footerText a{
+    color: #36c36e;
+}
+/*footer emd*/
